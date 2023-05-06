@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Montserrat',sans-serif;
+}
+
+p {
+    font-family: 'Reboto serif',sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    color: #3d0d8a;
+}
+
+.r-p{
+    padding-top:80px;
+    padding-bottom: 80px;
+}
+
+/* body {
+    background-color: black;
+} */
+
+/* NAVIGATION */
+
+nav.r-nav {
+    background: transparent;
+    padding: 20px 0;
+    transition: 0.5s all;
+}
+
+nav .navbar-brand {
+    font-size: 30px;
+    color: #fff;
+    transition: 0.5s all;
+}
+
+nav .navbar-brand img {
+    width: 150px;
+}
+
+nav .navbar-nav {
+    margin-left: 65%;
+}
+
+nav .navbar-nav li {
+    margin-left: 15px;
+}
+
+nav .navbar-nav li a {
+    color: #fff !important;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+nav.r-nav.stickyadd{
+    background: rgba(24, 24, 24, 0.5) !important;
+    padding: 15px 0;
+    transition: .5s all ease-in-out;
+}
+
+nav.stickyadd .navbar-brand{
+    color: #fff !important;
+    font-size: 40px;
+    transition: .5s all;
+}
+
+nav.stickyadd .navbar-brand .nav-link{
+    color: #fff !important;
+}
+
+.navbar .hamburger {
+    color: #fff;
+}
+
+nav.stickyadd .hamburger {
+    color: #fff;
+}
+
+/* HEADER */
+header {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/school-front.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header-content{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-box {
+    max-width: 700px;
+    color: #fff;
+}
+
+.content-box h4 {
+    font-size: 30px;
+}
+
+.content-box h1{
+    font-size: 52px;
+}
+
+.content-box p{
+    color: #fff !important;
+}
+
+.content-box a{
+    color:rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 5px 25px;
+}
+
+.content-box a:hover{
+    color:#000;
+    background-color: rgba(255, 255, 255, 0.8);
+    transition: 0.5s all;
+}
+
+.content-box p {
+    color: rgb(12, 12, 12);
+}
+
+/* ABOUT US */
+.about li a {
+    color: #000;
+    display: inline-block;
+    height: 42px;
+    width: 42px;
+    font-size: 20px;
+    border: 2px solid #d4d4d4;
+    border-radius: 50%;
+    line-height: 40px;
+    transition: 0.5s all;
+    text-align: center;
+    margin: 0 30px;
+}
+
+.about p {
+    color: #000;
+    margin: 35px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.about img {
+    height: 450px;
+    margin:0 auto;
+    display:block;
+}
+
+.about li a:hover{
+    color: #ea3f39;
+}
+
+/* CONTACT */
+
+.contact .r-icon {
+    font-size: 50px;
+    text-align: center;
+}
+
+.form-control {
+    margin: 10px 0;
+}
